@@ -1,0 +1,65 @@
+// custom variables and override bootstrap variables
+
+// Scaffolding
+
+$body-bg:#fff;
+$text-color:#444;
+$link-color:#0e7fa3;
+$white:#fff;
+$yellow:#ffdb6d;
+$green:#02a2a4;
+$blue:#0e7fa3;
+$light-brown:#f1f1f1;
+
+//Typography
+
+$font-size-base: 16px;
+$line-height-base: 1.5;
+$font-family-sans-serif: "proxima-nova", Arial, Helvetica, sans-serif;
+$font-size-h1:43px;
+
+
+// Grid system
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$grid-float-breakpoint:992px;
+
+
+// Media queries breakpoints
+$screen-lg: 1194px;
+
+
+// Container sizes
+$container-large-desktop: (1134px + $grid-gutter-width);
+
+// Navbar
+
+$navbar-height:1px;
+$navbar-default-border:transparent;
+$navbar-default-bg: $white;
+$navbar-border-radius:0;
+$navbar-default-link-color: $blue;
+$navbar-default-link-active-bg: transparent;
+$navbar-default-link-active-color:$green;
+$navbar-default-color:$blue;
+$navbar-default-link-hover-color: $green;
+$navbar-default-link-hover-bg: transparent;
+
+//Buttons
+$btn-default-color:$white;
+$btn-default-bg:transparent;
+$btn-default-border:$white;
+
+
+$btn-primary-color:$blue;
+$btn-primary-bg:transparent;
+$btn-primary-border:$blue;
+
+$btn-info-color:$yellow;
+$btn-info-bg:transparent;
+$btn-info-border:$yellow;
+
+$btn-success-color:$green;
+$btn-success-bg:transparent;
+$btn-success-border:$green;
